@@ -45,7 +45,7 @@ with con:
                  print("one Null")
          averagevalue.append(tmpmonthvalue/numbercercle)
      plt.plot(Xlable,averagevalue,'ro')
-     plt.legend(['Average Residual Free Chlorine'])
+     plt.legend(['Average Residual Free Chlorine (mg/L)'])
      plt.savefig('plot2.pdf')
  #    cur.execute("select Age_Adjusted_Death_Rate from q3 where Race_Ethnicity='Black Non-Hispanic' and sex='M' and Leading_Cause=%s" %trail)
  #    rowsM=cur.fetchall()
